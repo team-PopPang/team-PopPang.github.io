@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://team-poppang.github.io/blog</id>
-    <title>PopPang Docs Blog</title>
+    <title>팝팡 - 떠먹여주는 팝업스토어 Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://team-poppang.github.io/blog"/>
-    <subtitle>PopPang Docs Blog</subtitle>
-    <icon>https://team-poppang.github.io/img/favicon.ico</icon>
+    <subtitle>팝팡 - 떠먹여주는 팝업스토어 Blog</subtitle>
+    <icon>https://team-poppang.github.io/img/PopPang.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://team-poppang.github.io/blog/welcome</id>
