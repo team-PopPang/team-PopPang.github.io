@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PopPang Docs',
-  tagline: '팝팡 문서 저장소',
-  favicon: 'img/favicon.ico',
+  title: '팝팡 - 떠먹여주는 팝업스토어',
+  tagline: '놓치기 아쉬운 팝업들, 키워드만 등록하면 가장 먼저 알려드려요.',
+  favicon: 'img/PopPang.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -77,10 +77,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: '팝팡',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/PopPang.png',
         },
         items: [
           {
