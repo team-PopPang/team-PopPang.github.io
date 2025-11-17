@@ -30,7 +30,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
 
-:root {
+/* :root {
   --ifm-color-primary: #FF8A3D;
   --ifm-color-primary-dark: #E6762F;
   --ifm-color-primary-darker: #CC692A;
@@ -42,10 +42,10 @@
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Dark Mode용 */
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --ifm-color-primary: #FF9E5C;
   --ifm-color-primary-dark: #E68B51;
   --ifm-color-primary-darker: #CF7C48;
@@ -54,6 +54,33 @@
   --ifm-color-primary-light: #FFB480;
   --ifm-color-primary-lighter: #FFC9A3;
   --ifm-color-primary-lightest: #FFE7D5;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.15);
+} */
+
+:root {
+  --ifm-color-primary: #3B82F6; /* Toss Blue 느낌 */
+  --ifm-color-primary-dark: #2563EB;
+  --ifm-color-primary-darker: #1D4ED8;
+  --ifm-color-primary-darkest: #1E40AF;
+
+  --ifm-color-primary-light: #60A5FA;
+  --ifm-color-primary-lighter: #93C5FD;
+  --ifm-color-primary-lightest: #BFDBFE;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #60A5FA;
+  --ifm-color-primary-dark: #3B82F6;
+  --ifm-color-primary-darker: #2563EB;
+  --ifm-color-primary-darkest: #1E40AF;
+
+  --ifm-color-primary-light: #93C5FD;
+  --ifm-color-primary-lighter: #BFDBFE;
+  --ifm-color-primary-lightest: #DBEAFE;
 
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.15);
 }
