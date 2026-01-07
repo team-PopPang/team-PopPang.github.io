@@ -1,4 +1,4 @@
-# MY4CUT — Next.js + Tailwind Starter
+# Poppang — Next.js + Tailwind Starter
 
 간단한 Next.js + TypeScript + Tailwind 템플릿입니다. 홈(히어로/폰 목업)과 블로그 목록 페이지를 포함합니다.
 
