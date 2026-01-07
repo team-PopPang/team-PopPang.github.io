@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
         {/* <Link href="#">촬영하기</Link> */}
         {/* <Link href="#">가이드</Link> */}
         <Link href="/blog" className="font-semibold">
-          블로그
+          테크 블로그
         </Link>
         <button className="ml-4 px-4 py-2 bg-black text-white rounded-full">
           앱 다운로드
