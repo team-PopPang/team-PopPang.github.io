@@ -21,7 +21,7 @@ const BlogPage: React.FC<{ posts: Post[] }> = ({ posts }) => {
       </Head>
 
       <section className="max-w-6xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold mb-6">팝팡 기술 블로그</h2>
+        <h2 className="text-3xl font-bold mb-6">팝팡 테크 블로그</h2>
         <div className="mb-6 flex gap-3 flex-wrap">
           {categories.map((c) => (
             <button
