@@ -1,0 +1,4 @@
+- Project scaffolded by request: Next.js + TypeScript + Tailwind
+- Contains basic Home and Blog pages, example posts, and placeholder images
+- Replace placeholder assets with final artwork
+- Run `npm install` then `npm run dev` to start

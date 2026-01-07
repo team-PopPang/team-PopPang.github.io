@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Basic content styles for markdown */
+.blog-content {
+  line-height: 1.75;
+}
+.blog-content h2 { font-size: 1.25rem; font-weight: 600; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.blog-content p { margin-top: 0.75rem; margin-bottom: 0.75rem; }
+.blog-content img { border-radius: 0.5rem; margin: 1rem 0; max-width: 100%; }
+
+/* Shiki 코드블록 기본 여백 */
+.blog-content pre.shiki {
+  position: relative;              /* ⭐️ 이거 없어서 안 뜬 것 */
+  margin: 1.5rem 0;        /* 위아래 여백 */
+  padding: 32px 20px 20px;          /* 위 공간 확보 */
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.blog-content pre.shiki code {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* 언어 표시 (코드박스 안) */
+.blog-content pre.shiki .code-lang {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  z-index: 2;               /* ⭐️ 핵심 */
+  font-size: 12px;
+  font-weight: 600;
+  color: #c9d1d9;
+  text-transform: uppercase;
+  pointer-events: none;
+}
